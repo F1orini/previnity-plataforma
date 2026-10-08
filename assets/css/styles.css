@@ -474,8 +474,11 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .g-main, .g-3 { grid-template-columns: minmax(0, 1fr); }
   .dist-grid { grid-template-columns: repeat(2, 1fr); }
   .auth { grid-template-columns: 1fr; }
-  .auth-hero { padding: 36px 28px; }
-  .auth-hero h1 { font-size: 32px; }
+  .auth-hero { padding: 28px 24px 32px; }
+  .auth-hero > div { padding-top: 28px !important; }
+  .auth-hero h1 { font-size: 28px; }
+  .auth-hero p.lead { font-size: 14.5px; margin-top: 10px; }
+  .auth-feats, .auth-hero > p.small { display: none; }
   .auth-hero .shape { width: 320px; }
 }
 @media (max-width: 900px) {
