@@ -148,7 +148,7 @@
         </div>
         <div data-pane="usr" data-name="s" class="hide card-body">
           <div class="list">
-            ${[['Autenticação em dois fatores obrigatória', 'Todos os usuários humanos', true], ['SSO corporativo (SAML 2.0 / Azure AD)', 'Login unificado com o diretório CPFL', true], ['Expiração de sessão por inatividade', '15 minutos', true], ['Restrição por IP corporativo', 'Faixas 10.0.0.0/8 e VPN', true], ['Mascaramento de CPF/CNPJ em tela', 'Exibição parcial para perfis sem necessidade', true], ['Download de dados pessoais com aprovação', 'Exige justificativa e registro em auditoria', false]].map(([t, d, on]) => `
+            ${[['Autenticação em dois fatores obrigatória', 'Todos os usuários humanos', true], ['Expiração de sessão por inatividade', '15 minutos', true], ['Restrição por IP corporativo', 'Faixas 10.0.0.0/8 e VPN', true], ['Mascaramento de CPF/CNPJ em tela', 'Exibição parcial para perfis sem necessidade', true], ['Download de dados pessoais com aprovação', 'Exige justificativa e registro em auditoria', false]].map(([t, d, on]) => `
               <div class="list-item"><div class="grow"><strong>${t}</strong><span class="sub">${d}</span></div><label class="switch"><input type="checkbox" ${on ? 'checked' : ''}><span></span></label></div>`).join('')}
           </div>
         </div>
