@@ -552,7 +552,7 @@ window.VIEWS = window.VIEWS || {};
             <div data-pane="ce" data-name="carta">
               <div class="letter" style="max-width:720px;margin:0 auto">
                 <span class="stamp">EVIDÊNCIA · ENTREGUE</span>
-                <div class="row-between" style="align-items:flex-start"><div><strong style="font-size:15px;color:#0a3d91">CPFL ENERGIA</strong><div style="font-size:11px;color:#777">Comunicado de inclusão em cadastro de inadimplentes</div></div></div>
+                <div class="row-between" style="align-items:flex-start"><div><img src="assets/img/cpfl.png" alt="CPFL Energia" style="height:48px;width:auto;margin-bottom:6px"><div style="font-size:11px;color:#777">Comunicado de inclusão em cadastro de inadimplentes</div></div></div>
                 <p style="margin-top:22px">Campinas, 02 de outubro de 2026</p>
                 <p style="margin-top:12px"><b id="ce-dest">${c.nome.toUpperCase()}</b><br>${c.doc}<br>Rua das Palmeiras, 1.204 – ${c.cidade}</p>
                 <h4>Comunicado de débito</h4>
