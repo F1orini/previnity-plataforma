@@ -185,7 +185,7 @@
             <div class="tl-item"><span class="tl-dot"><i data-lucide="refresh-cw"></i></span><strong>Baixa das faturas na CPFL</strong><span class="sub">Em até 1 dia útil</span></div>
             <div class="tl-item pending"><span class="tl-dot"><i data-lucide="user-check"></i></span><strong>Nome retirado do cadastro de inadimplentes</strong><span class="sub">Em até 5 dias úteis</span></div>
           </div>
-          <div class="row mt-4" style="justify-content:center;flex-wrap:wrap"><button class="btn btn-outline" data-toast="Comprovante baixado" data-icon="file-down"><i data-lucide="download"></i>Comprovante</button><button class="btn btn-outline" data-toast="Termo do acordo enviado por WhatsApp" data-icon="send"><i data-lucide="file-text"></i>Termo do acordo</button><a class="btn btn-primary" href="negociar.html">Concluir</a></div>
+          <div class="row mt-4" style="justify-content:center;flex-wrap:wrap"><button class="btn btn-outline" data-toast="Comprovante baixado" data-icon="file-down"><i data-lucide="download"></i>Comprovante</button><button class="btn btn-outline" data-toast="Termo do acordo enviado por WhatsApp" data-icon="send"><i data-lucide="file-text"></i>Termo do acordo</button><a class="btn btn-primary" href="negociar">Concluir</a></div>
         </div>
       </div>`,
   ];

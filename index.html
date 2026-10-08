@@ -89,7 +89,7 @@
               <strong class="strong" style="display:block">É consumidor CPFL?</strong>
               <span class="small muted">Consulte e negocie seus débitos online</span>
             </div>
-            <a class="btn btn-sm btn-dark" href="negociar.html">Acessar</a>
+            <a class="btn btn-sm btn-dark" href="negociar">Acessar</a>
           </div>
         </div>
       </div>
@@ -107,7 +107,7 @@
     document.querySelector('[data-back]').addEventListener('click', () => { mfa.classList.add('hide'); login.classList.remove('hide'); });
     const otp = [...document.querySelectorAll('#otp input')];
     otp.forEach((el, i) => el.addEventListener('input', () => { if (el.value && otp[i + 1]) otp[i + 1].focus(); }));
-    document.getElementById('mfa-form').addEventListener('submit', e => { e.preventDefault(); location.href = 'app.html#/dashboard'; });
+    document.getElementById('mfa-form').addEventListener('submit', e => { e.preventDefault(); location.href = 'gestao#/dashboard'; });
   </script>
 </body>
 </html>

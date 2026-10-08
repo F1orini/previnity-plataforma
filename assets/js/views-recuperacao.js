@@ -43,7 +43,7 @@
     title: 'Negociações e acordos',
     render: () => `
       ${pageHead('Recuperação', 'Negociações e acordos', 'Ambiente digital de negociação PF/PJ com as ofertas e condições autorizadas pela CPFL',
-        `<a class="btn btn-outline" href="negociar.html" target="_blank"><i data-lucide="external-link"></i>Ver portal do consumidor</a><button class="btn btn-primary" id="btn-politica"><i data-lucide="sliders-horizontal"></i>Política de ofertas</button>`)}
+        `<a class="btn btn-outline" href="negociar" target="_blank"><i data-lucide="external-link"></i>Ver portal do consumidor</a><button class="btn btn-primary" id="btn-politica"><i data-lucide="sliders-horizontal"></i>Política de ofertas</button>`)}
       <div class="grid g-4">
         ${kpi({ hero: true, icon: 'landmark', label: 'Carteira disponível para negociação', value: 'R$ 300 mi', foot: '<span style="color:#c5d8ff">~1.000.000 de clientes · referência mensal</span>' })}
         ${kpi({ icon: 'handshake', color: 'green', label: 'Acordos no mês', value: '38.410', trend: '+12,4%', foot: '71% à vista · 29% parcelados' })}

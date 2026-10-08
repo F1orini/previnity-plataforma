@@ -472,7 +472,7 @@ window.VIEWS = window.VIEWS || {};
             <div class="wa-phone">
               <div class="wa-bubble"><b>CPFL Energia ✔</b><br><br>Olá, <b>Ana Paula</b>. Identificamos débito em aberto na UC <b>4821****</b> no valor de <b>R$ 486,20</b>.<br><br>Caso não seja regularizado em até 10 dias, seu CPF poderá ser incluído em cadastro de inadimplentes, conforme Resolução ANEEL nº 1.000/2021.
                 <div class="time">07:02 <i data-lucide="check-check"></i></div>
-                <a class="btn-wa" href="negociar.html" target="_blank">Negociar agora</a><a class="btn-wa" href="#">Ver fatura</a>
+                <a class="btn-wa" href="negociar" target="_blank">Negociar agora</a><a class="btn-wa" href="#">Ver fatura</a>
               </div>
             </div>
           </div>
